@@ -1,27 +1,29 @@
-[gd_scene load_steps=34 format=3 uid="uid://chtdvbuf0ivvt"]
+[gd_scene load_steps=36 format=3 uid="uid://chtdvbuf0ivvt"]
 
 [ext_resource type="PackedScene" uid="uid://cv2afui5p28af" path="res://objects/modules/mint/base_rooms/mint_diamond_room.tscn" id="1_h2rqk"]
 [ext_resource type="PackedScene" uid="uid://direah3lbjuu5" path="res://objects/battle/battle_node/battle_node.tscn" id="2_alx7d"]
 [ext_resource type="PackedScene" uid="uid://dflwjcy6fj0av" path="res://objects/cog/cog.tscn" id="3_okjj0"]
 [ext_resource type="PackedScene" uid="uid://wpoc3xs1yy0" path="res://objects/player/player.tscn" id="4_fefq8"]
-[ext_resource type="Script" path="res://objects/battle/battle_resources/stats.gd" id="5_wgpvb"]
-[ext_resource type="Script" path="res://objects/toon/clothing/toon_bottoms.gd" id="6_sp5d7"]
-[ext_resource type="Script" path="res://objects/toon/toon_dna.gd" id="7_42kli"]
-[ext_resource type="Script" path="res://objects/toon/clothing/toon_shirt.gd" id="8_suqae"]
-[ext_resource type="Script" path="res://objects/battle/battle_resources/gag_loadouts/track.gd" id="9_4i7n6"]
+[ext_resource type="Script" uid="uid://b688l7u8my376" path="res://objects/battle/battle_resources/stats.gd" id="5_wgpvb"]
+[ext_resource type="Script" uid="uid://86f8elsco8wd" path="res://objects/toon/clothing/toon_bottoms.gd" id="6_sp5d7"]
+[ext_resource type="Script" uid="uid://cum4wv7gip1d" path="res://objects/toon/toon_dna.gd" id="7_42kli"]
+[ext_resource type="Script" uid="uid://cb17sg0c3mcqw" path="res://objects/toon/clothing/toon_shirt.gd" id="8_suqae"]
+[ext_resource type="Script" uid="uid://qo7x2ip0i43q" path="res://objects/battle/battle_resources/gag_loadouts/track.gd" id="9_4i7n6"]
 [ext_resource type="Resource" uid="uid://ct1l0ln1js2xw" path="res://objects/battle/battle_resources/gag_loadouts/gag_tracks/toon_up.tres" id="10_p0q4k"]
 [ext_resource type="Resource" uid="uid://5dld88ul3rb5" path="res://objects/battle/battle_resources/gag_loadouts/gag_tracks/trap.tres" id="11_hy8sk"]
 [ext_resource type="Resource" uid="uid://dqldfsmn7g606" path="res://objects/battle/battle_resources/gag_loadouts/gag_tracks/lure.tres" id="12_ex1ui"]
-[ext_resource type="Script" path="res://objects/player/character.gd" id="13_d0tkq"]
+[ext_resource type="Script" uid="uid://xayct6k2g76w" path="res://objects/player/character.gd" id="13_d0tkq"]
 [ext_resource type="Resource" uid="uid://cvaos6ucteefy" path="res://objects/battle/battle_resources/gag_loadouts/gag_tracks/sound.tres" id="13_eed60"]
-[ext_resource type="Script" path="res://objects/items/classes/item.gd" id="14_7upve"]
+[ext_resource type="Script" uid="uid://yhk2rod5wl3o" path="res://objects/items/classes/item.gd" id="14_7upve"]
 [ext_resource type="Resource" uid="uid://0528viy6hdsv" path="res://objects/battle/battle_resources/gag_loadouts/gag_tracks/throw.tres" id="14_ww67o"]
 [ext_resource type="Resource" uid="uid://cyiwxplege133" path="res://objects/items/resources/passive/emergency_unite.tres" id="15_8ctgi"]
 [ext_resource type="Resource" uid="uid://dvxiqtapdvmj4" path="res://objects/battle/battle_resources/gag_loadouts/gag_tracks/squirt.tres" id="15_h0hwy"]
 [ext_resource type="Resource" uid="uid://lf7h5xkbt2op" path="res://objects/battle/battle_resources/gag_loadouts/gag_tracks/drop.tres" id="16_diqeu"]
-[ext_resource type="Script" path="res://objects/quests/quest.gd" id="16_qov7a"]
-[ext_resource type="Script" path="res://objects/player/player_stats.gd" id="17_8fcps"]
-[ext_resource type="Script" path="res://objects/battle/battle_resources/gag_loadouts/gag_loadout.gd" id="17_aepo7"]
+[ext_resource type="Script" uid="uid://b5ypmnx3jqc7x" path="res://objects/quests/quest.gd" id="16_qov7a"]
+[ext_resource type="Script" uid="uid://xnvrqnvq3l74" path="res://objects/player/player_stats.gd" id="17_8fcps"]
+[ext_resource type="Script" uid="uid://covbvbaxxpcrl" path="res://objects/battle/battle_resources/gag_loadouts/gag_loadout.gd" id="17_aepo7"]
+[ext_resource type="PackedScene" uid="uid://dxyq5lb5oineo" path="res://objects/interactables/treasure_chest/treasure_chest.tscn" id="23_b65x5"]
+[ext_resource type="Resource" uid="uid://r5ubyo8osu6k" path="res://objects/items/resources/passive/doodle.tres" id="24_b65x5"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_5pfdn"]
 size = Vector3(14.6639, 5.65576, 10.2309)
@@ -89,6 +91,7 @@ gag_loadout = SubResource("Resource_s4oci")
 starting_laff = 25
 starting_items = Array[ExtResource("14_7upve")]([ExtResource("15_8ctgi")])
 base_stats = SubResource("Resource_4yraj")
+random_character_stored_name = ""
 
 [sub_resource type="Resource" id="Resource_vs51t"]
 script = ExtResource("17_8fcps")
@@ -216,3 +219,7 @@ shape = SubResource("BoxShape3D_5pfdn")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.22207, 0, -10.4431)
 state = 0
 stats = SubResource("Resource_vs51t")
+
+[node name="treasure_chest" parent="." instance=ExtResource("23_b65x5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.29258, 0, -9.68401)
+override_item = ExtResource("24_b65x5")

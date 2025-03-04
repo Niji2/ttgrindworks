@@ -1,6 +1,6 @@
-[gd_resource type="Resource" script_class="ItemPool" load_steps=45 format=3 uid="uid://br3mtjoo6t1xc"]
+[gd_resource type="Resource" script_class="ItemPool" load_steps=46 format=3 uid="uid://br3mtjoo6t1xc"]
 
-[ext_resource type="Script" path="res://objects/items/classes/item.gd" id="1_7i42i"]
+[ext_resource type="Script" uid="uid://yhk2rod5wl3o" path="res://objects/items/classes/item.gd" id="1_7i42i"]
 [ext_resource type="Resource" uid="uid://ba7mgoe7i5oq4" path="res://objects/items/resources/accessories/backpacks/gag_pack.tres" id="2_ffu8s"]
 [ext_resource type="Resource" uid="uid://cmqswwdbcxkk1" path="res://objects/items/resources/accessories/glasses/celebrity_shades.tres" id="4_n5156"]
 [ext_resource type="Resource" uid="uid://cmrx0t67871w2" path="res://objects/items/resources/accessories/backpacks/shark_fin.tres" id="7_vxn22"]
@@ -16,7 +16,7 @@
 [ext_resource type="Resource" uid="uid://b211fi66w3yso" path="res://objects/items/resources/accessories/hats/archer_hat.tres" id="17_krp3h"]
 [ext_resource type="Resource" uid="uid://r5ubyo8osu6k" path="res://objects/items/resources/passive/doodle.tres" id="18_8n2mt"]
 [ext_resource type="Resource" uid="uid://uidr04b5nmgu" path="res://objects/items/resources/accessories/hats/chef_hat.tres" id="18_mftg4"]
-[ext_resource type="Script" path="res://objects/items/classes/item_pool.gd" id="18_ubwkd"]
+[ext_resource type="Script" uid="uid://obeaogokm25e" path="res://objects/items/classes/item_pool.gd" id="18_ubwkd"]
 [ext_resource type="Resource" uid="uid://b77qp325baypa" path="res://objects/items/resources/passive/pink_slip.tres" id="19_4d72q"]
 [ext_resource type="Resource" uid="uid://d66bi5sfu5op" path="res://objects/items/resources/accessories/hats/conductor_hat.tres" id="19_u2mhm"]
 [ext_resource type="Resource" uid="uid://d2m4dg65lxkhj" path="res://objects/items/resources/accessories/hats/anti_cog_control_hat.tres" id="20_drih5"]
@@ -44,7 +44,8 @@
 [ext_resource type="Resource" uid="uid://4xnssqcwi7ae" path="res://objects/items/resources/accessories/hats/baseball_cap.tres" id="41_525wq"]
 [ext_resource type="Resource" uid="uid://dlhap5enouu26" path="res://objects/items/resources/accessories/backpacks/scuba_tank.tres" id="42_8ea2i"]
 [ext_resource type="Resource" uid="uid://0bp03pth5o7" path="res://objects/items/resources/accessories/hats/bird_hat.tres" id="43_w6aaa"]
+[ext_resource type="Resource" uid="uid://cy0ax4362rswy" path="res://objects/items/resources/passive/clara_soul.tres" id="44_cmynb"]
 
 [resource]
 script = ExtResource("18_ubwkd")
-items = Array[ExtResource("1_7i42i")]([ExtResource("12_5ubrc"), ExtResource("2_ffu8s"), ExtResource("7_vxn22"), ExtResource("8_m7od6"), ExtResource("9_gtle3"), ExtResource("10_vrjl7"), ExtResource("11_qbttx"), ExtResource("4_n5156"), ExtResource("13_0s7cf"), ExtResource("14_lq7hb"), ExtResource("15_2jine"), ExtResource("20_drih5"), ExtResource("17_krp3h"), ExtResource("18_mftg4"), ExtResource("19_u2mhm"), ExtResource("20_sbfek"), ExtResource("21_ea5kx"), ExtResource("18_8n2mt"), ExtResource("23_2uhqq"), ExtResource("8_fu8ak"), ExtResource("19_4d72q"), ExtResource("20_hgi1d"), ExtResource("28_uwia6"), ExtResource("28_0e2n7"), ExtResource("26_l4krm"), ExtResource("27_bl1xv"), ExtResource("28_epw5c"), ExtResource("29_vs0w5"), ExtResource("30_cvyop"), ExtResource("31_kaqci"), ExtResource("32_pp0dd"), ExtResource("33_l6yao"), ExtResource("34_x7v3f"), ExtResource("35_w0ilu"), ExtResource("36_ij18s"), ExtResource("37_jsr2o"), ExtResource("38_nsu5i"), ExtResource("39_f6plx"), ExtResource("40_iy556"), ExtResource("41_525wq"), ExtResource("42_8ea2i"), ExtResource("43_w6aaa")])
+items = Array[ExtResource("1_7i42i")]([ExtResource("12_5ubrc"), ExtResource("2_ffu8s"), ExtResource("7_vxn22"), ExtResource("8_m7od6"), ExtResource("9_gtle3"), ExtResource("10_vrjl7"), ExtResource("11_qbttx"), ExtResource("4_n5156"), ExtResource("13_0s7cf"), ExtResource("14_lq7hb"), ExtResource("15_2jine"), ExtResource("20_drih5"), ExtResource("17_krp3h"), ExtResource("18_mftg4"), ExtResource("19_u2mhm"), ExtResource("20_sbfek"), ExtResource("21_ea5kx"), ExtResource("18_8n2mt"), ExtResource("23_2uhqq"), ExtResource("8_fu8ak"), ExtResource("19_4d72q"), ExtResource("20_hgi1d"), ExtResource("28_uwia6"), ExtResource("28_0e2n7"), ExtResource("26_l4krm"), ExtResource("27_bl1xv"), ExtResource("28_epw5c"), ExtResource("29_vs0w5"), ExtResource("30_cvyop"), ExtResource("31_kaqci"), ExtResource("32_pp0dd"), ExtResource("33_l6yao"), ExtResource("34_x7v3f"), ExtResource("35_w0ilu"), ExtResource("36_ij18s"), ExtResource("37_jsr2o"), ExtResource("38_nsu5i"), ExtResource("39_f6plx"), ExtResource("40_iy556"), ExtResource("41_525wq"), ExtResource("42_8ea2i"), ExtResource("43_w6aaa"), ExtResource("44_cmynb")])
