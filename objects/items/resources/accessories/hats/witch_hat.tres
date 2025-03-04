@@ -1,11 +1,11 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=41 format=3 uid="uid://rvhj26x82w0f"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_3p8ag"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="2_4al5t"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_3p8ag"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="2_4al5t"]
 [ext_resource type="PackedScene" uid="uid://i3nhmwxwps3u" path="res://models/accessories/hats/witch_hat/tt_m_chr_avt_acc_hat_witch.glb" id="2_dp6aq"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_lty77"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_lty77"]
 [ext_resource type="Texture2D" uid="uid://dlnl6qrbkhw2l" path="res://models/accessories/hats/witch_hat/tt_m_chr_avt_acc_hat_witch.glb-pix-1.png" id="3_6d4or"]
-[ext_resource type="Script" path="res://objects/items/custom/item_witch_hat.gd" id="3_k6hh1"]
+[ext_resource type="Script" uid="uid://ceowmalfy6k8w" path="res://objects/items/custom/item_witch_hat.gd" id="3_k6hh1"]
 
 [sub_resource type="Resource" id="Resource_ha20r"]
 script = ExtResource("2_lty77")

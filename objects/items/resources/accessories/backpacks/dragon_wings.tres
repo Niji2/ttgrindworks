@@ -1,11 +1,11 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=10 format=3 uid="uid://rp2nc8f2wt77"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_gfdeh"]
-[ext_resource type="Script" path="res://objects/items/classes/body_placement.gd" id="2_8ug3b"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="2_g18od"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_gfdeh"]
+[ext_resource type="Script" uid="uid://b2jbep1luklmt" path="res://objects/items/classes/body_placement.gd" id="2_8ug3b"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="2_g18od"]
 [ext_resource type="PackedScene" uid="uid://bc23uw6xdu3b0" path="res://models/accessories/backpacks/dragon_wings/tt_m_chr_avt_acc_pac_dragonWing.glb" id="2_p4dy1"]
 [ext_resource type="Texture2D" uid="uid://dreq8a7i7lqbr" path="res://models/accessories/backpacks/dragon_wings/tt_m_chr_avt_acc_pac_dragonWing.glb-pix-1.png" id="3_8p1s6"]
-[ext_resource type="Script" path="res://objects/items/custom/item_dragon_wings.gd" id="3_38rmb"]
+[ext_resource type="Script" uid="uid://dav2x3ortshng" path="res://objects/items/custom/item_dragon_wings.gd" id="3_38rmb"]
 
 [sub_resource type="Resource" id="Resource_xqi40"]
 script = ExtResource("2_8ug3b")

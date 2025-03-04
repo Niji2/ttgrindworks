@@ -1,11 +1,11 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=41 format=3 uid="uid://bxvpu1m80bbqf"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_8jc23"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_p0gu6"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="2_pmplb"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_8jc23"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_p0gu6"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="2_pmplb"]
 [ext_resource type="PackedScene" uid="uid://cc17pd0bq54xw" path="res://models/accessories/glasses/goggles/goggles.tscn" id="2_s8ghy"]
 [ext_resource type="Texture2D" uid="uid://dxmj3fj7rlsh3" path="res://models/accessories/glasses/goggles/goggles-pix-1.png" id="3_anu6k"]
-[ext_resource type="Script" path="res://objects/items/custom/item_goggles.gd" id="3_q5860"]
+[ext_resource type="Script" uid="uid://d0g3nukewx1m" path="res://objects/items/custom/item_goggles.gd" id="3_q5860"]
 
 [sub_resource type="Resource" id="Resource_2ygx1"]
 script = ExtResource("2_p0gu6")

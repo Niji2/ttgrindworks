@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=41 format=3 uid="uid://bsn3pais71e1e"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_hsahl"]
-[ext_resource type="Script" path="res://objects/items/custom/item_mini_blinds.gd" id="2_fqrb8"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_hsahl"]
+[ext_resource type="Script" uid="uid://dt6ggdr5ham6g" path="res://objects/items/custom/item_mini_blinds.gd" id="2_fqrb8"]
 [ext_resource type="PackedScene" uid="uid://dklt4l4v6vfnu" path="res://models/accessories/glasses/mini_blinds/tt_m_chr_avt_acc_msk_miniblinds.glb" id="2_o5mde"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_rp7na"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="2_wsdxo"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_rp7na"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="2_wsdxo"]
 [ext_resource type="Texture2D" uid="uid://bwo62s0qbm4xe" path="res://models/accessories/glasses/mini_blinds/tt_m_chr_avt_acc_msk_miniblinds.glb-pix-1.png" id="3_tbf6m"]
 
 [sub_resource type="Resource" id="Resource_1bhe6"]

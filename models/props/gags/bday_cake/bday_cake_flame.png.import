@@ -2,26 +2,21 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cs0xkclvk7xy1"
-path.s3tc="res://.godot/imported/bday_cake_flame.png-363606b002ddeaba76bc513e8874b67a.s3tc.ctex"
-path.etc2="res://.godot/imported/bday_cake_flame.png-363606b002ddeaba76bc513e8874b67a.etc2.ctex"
+uid="uid://bmb6hp67yxxrj"
+path="res://.godot/imported/bday_cake_flame.png-363606b002ddeaba76bc513e8874b67a.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc", "etc2_astc"],
-"vram_texture": true
-}
-generator_parameters={
-"md5": "584180b17179e3ed0a79c402d8d7d9bd"
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://models/props/gags/bday_cake/bday_cake_flame.png"
-dest_files=["res://.godot/imported/bday_cake_flame.png-363606b002ddeaba76bc513e8874b67a.s3tc.ctex", "res://.godot/imported/bday_cake_flame.png-363606b002ddeaba76bc513e8874b67a.etc2.ctex"]
+dest_files=["res://.godot/imported/bday_cake_flame.png-363606b002ddeaba76bc513e8874b67a.ctex"]
 
 [params]
 
-compress/mode=2
-compress/high_quality=false
+compress/mode=3
+compress/high_quality=true
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/normal_map=0

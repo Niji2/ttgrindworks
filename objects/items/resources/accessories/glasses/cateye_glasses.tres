@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=40 format=3 uid="uid://c3ju0x0dghuf2"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_0wxwn"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="2_15vla"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_0wxwn"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="2_15vla"]
 [ext_resource type="PackedScene" uid="uid://b55cw0nw2svqj" path="res://models/accessories/glasses/cat_eye_glasses/tt_m_chr_avt_acc_msk_catEyeGlasses.glb" id="2_jumbx"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_s1lpj"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_s1lpj"]
 [ext_resource type="Texture2D" uid="uid://cmja37fo02y1r" path="res://models/accessories/glasses/cat_eye_glasses/tt_m_chr_avt_acc_msk_catEyeGlasses.glb-pix-1.png" id="3_gpdmo"]
 
 [sub_resource type="Resource" id="Resource_4ml6q"]

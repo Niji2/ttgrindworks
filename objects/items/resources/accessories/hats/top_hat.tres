@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=40 format=3 uid="uid://br2b7ig7wwexs"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_4y3r7"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_3bbd3"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="2_c40ur"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_4y3r7"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_3bbd3"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="2_c40ur"]
 [ext_resource type="PackedScene" uid="uid://ci2y24lnpva2m" path="res://models/accessories/hats/top_hat/tt_m_chr_avt_acc_hat_topHat.glb" id="2_w4pdb"]
 [ext_resource type="Texture2D" uid="uid://cqwog0k1lx4c2" path="res://models/accessories/hats/top_hat/tt_m_chr_avt_acc_hat_topHat.glb-pix-1.png" id="3_whmtc"]
 

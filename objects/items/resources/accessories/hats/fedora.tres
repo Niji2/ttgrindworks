@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=40 format=3 uid="uid://d4jexftayuayd"]
 
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="1_65svt"]
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_npcfx"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_jcixs"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="1_65svt"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_npcfx"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_jcixs"]
 [ext_resource type="PackedScene" uid="uid://bj8vmiqxyf1ft" path="res://models/accessories/hats/fedora/fedora.glb" id="2_xav6c"]
 [ext_resource type="Texture2D" uid="uid://8vj8pdavmefi" path="res://models/accessories/hats/fedora/fedora.glb-pix-1.png" id="3_3nnhj"]
 

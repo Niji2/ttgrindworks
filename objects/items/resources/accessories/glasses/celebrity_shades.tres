@@ -1,11 +1,11 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=41 format=3 uid="uid://cmqswwdbcxkk1"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_4gu1q"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_4gu1q"]
 [ext_resource type="PackedScene" uid="uid://yk413pyb86cd" path="res://models/accessories/glasses/celebrity_shades/celebrity_shades.tscn" id="2_47p48"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="2_vhf8m"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_wcwsd"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="2_vhf8m"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_wcwsd"]
 [ext_resource type="Texture2D" uid="uid://clebxt3wk24gl" path="res://models/accessories/glasses/celebrity_shades/tt_m_chr_avt_acc_msk_jackieOShades.glb-pix-1.png" id="3_ovn26"]
-[ext_resource type="Script" path="res://objects/items/custom/item_celeb_shades.gd" id="3_wmd2c"]
+[ext_resource type="Script" uid="uid://cgux4201qvjcy" path="res://objects/items/custom/item_celeb_shades.gd" id="3_wmd2c"]
 
 [sub_resource type="Resource" id="Resource_1bhe6"]
 script = ExtResource("2_wcwsd")

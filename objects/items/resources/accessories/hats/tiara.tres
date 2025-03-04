@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=41 format=3 uid="uid://bxmg8p1uv1yor"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_5068w"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_i5ipy"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="2_l4e7p"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_5068w"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_i5ipy"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="2_l4e7p"]
 [ext_resource type="Texture2D" uid="uid://ca5kbeti1jhkv" path="res://models/accessories/hats/tiara/tt_m_chr_avt_acc_hat_tiara.glb-pix-1.png" id="3_anfp4"]
-[ext_resource type="Script" path="res://objects/items/custom/item_tiara.gd" id="3_ejwhr"]
+[ext_resource type="Script" uid="uid://djjjj6pih77oq" path="res://objects/items/custom/item_tiara.gd" id="3_ejwhr"]
 [ext_resource type="PackedScene" uid="uid://30peqspfbwh5" path="res://models/accessories/hats/tiara/tt_m_chr_avt_acc_hat_tiara.glb" id="3_nb8ch"]
 
 [sub_resource type="Resource" id="Resource_uj5ac"]

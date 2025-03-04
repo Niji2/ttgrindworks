@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=40 format=3 uid="uid://d66bi5sfu5op"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_aispr"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_f1y6s"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="2_kkiik"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_aispr"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_f1y6s"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="2_kkiik"]
 [ext_resource type="Texture2D" uid="uid://0qromxhcdoav" path="res://models/accessories/hats/conductor_hat/tt_m_chr_avt_acc_hat_mickeysBandConductorHat.glb-pix-1.png" id="3_042sb"]
 [ext_resource type="PackedScene" uid="uid://ckykpfuwpugog" path="res://models/accessories/hats/conductor_hat/tt_m_chr_avt_acc_hat_mickeysBandConductorHat.glb" id="3_uqm7c"]
 

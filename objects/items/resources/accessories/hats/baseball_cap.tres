@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=40 format=3 uid="uid://4xnssqcwi7ae"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_i5lwg"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_jv74l"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_i5lwg"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_jv74l"]
 [ext_resource type="Texture2D" uid="uid://wafayjyi7cyp" path="res://models/accessories/hats/baseball_cap/tt_m_chr_avt_acc_hat_baseball.glb-pix-1.png" id="3_uxv0q"]
 [ext_resource type="PackedScene" uid="uid://bk666b030qvok" path="res://models/accessories/hats/baseball_cap/tt_m_chr_avt_acc_hat_baseball.glb" id="4_7ew81"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="5_ckxva"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="5_ckxva"]
 
 [sub_resource type="Resource" id="Resource_bc1ca"]
 script = ExtResource("2_jv74l")

@@ -57,6 +57,7 @@ func get_random_item(pool: ItemPool, override_rolls := false) -> Item:
 	# If no item can be given to the player, just give them treasure
 	if trimmed_pool.size() == 0:
 		return load('res://objects/items/resources/passive/ice_cream_treasure.tres')
+	#it ain't breakfasting, it be ice creaming xdd
 	
 	# Quality-scaled rarities
 	var quality_trimmed_pool : Array[Item] = []
@@ -222,7 +223,7 @@ func get_laff_rate() -> float:
 	
 	return laff_rate
 
-const BEAN_GOAL := 30
+const BEAN_GOAL := 50
 const LIKELIHOOD_PER_BEAN := 0.05
 const BEAN_POOL := preload('res://objects/items/pools/jellybeans.tres')
 func get_bean_rate() -> float:

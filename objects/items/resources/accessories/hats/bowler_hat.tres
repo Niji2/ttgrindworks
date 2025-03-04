@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=40 format=3 uid="uid://b6kkf2oi0ft7e"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_std0l"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_ehy3i"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_std0l"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_ehy3i"]
 [ext_resource type="Texture2D" uid="uid://dv8ylc7nrx4ff" path="res://models/accessories/hats/bowler_cap/tt_m_chr_avt_acc_hat_bowler.glb-pix-2.png" id="3_3c6pj"]
 [ext_resource type="PackedScene" uid="uid://cjlbtxj20nrea" path="res://models/accessories/hats/bowler_cap/tt_m_chr_avt_acc_hat_bowler.glb" id="3_os8wn"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="4_4x37t"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="4_4x37t"]
 
 [sub_resource type="Resource" id="Resource_8pqho"]
 script = ExtResource("2_ehy3i")

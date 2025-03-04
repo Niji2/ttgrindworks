@@ -1,11 +1,11 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=41 format=3 uid="uid://bbpwir33wh7c"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_n4gr2"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="2_1u72o"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_70505"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_n4gr2"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="2_1u72o"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_70505"]
 [ext_resource type="PackedScene" uid="uid://lair2cpjxy5h" path="res://models/accessories/hats/viking_helmet/tt_m_chr_avt_acc_hat_vikingHelmet.glb" id="2_bqhwh"]
 [ext_resource type="Texture2D" uid="uid://bbrcvdfx1s2vs" path="res://models/accessories/hats/viking_helmet/tt_m_chr_avt_acc_hat_vikingHelmet.glb-pix-1.png" id="3_3hjqm"]
-[ext_resource type="Script" path="res://objects/items/custom/item_viking_helmet.gd" id="3_yesbs"]
+[ext_resource type="Script" uid="uid://bmp625p4cdfcw" path="res://objects/items/custom/item_viking_helmet.gd" id="3_yesbs"]
 
 [sub_resource type="Resource" id="Resource_rrsgp"]
 script = ExtResource("2_70505")

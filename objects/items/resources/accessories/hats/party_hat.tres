@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=40 format=3 uid="uid://u6ns74o8c6pk"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_vu8bc"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_3q7we"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_vu8bc"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_3q7we"]
 [ext_resource type="PackedScene" uid="uid://cifjbdfi3cdcj" path="res://models/accessories/hats/party_hat/tt_m_chr_avt_acc_hat_partyHat.glb" id="2_bfyou"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="2_sjr0y"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="2_sjr0y"]
 [ext_resource type="Texture2D" uid="uid://buwl07lon4moo" path="res://models/accessories/hats/party_hat/tt_m_chr_avt_acc_hat_partyHat.glb-pix-1.png" id="3_ud7li"]
 
 [sub_resource type="Resource" id="Resource_gkc4w"]

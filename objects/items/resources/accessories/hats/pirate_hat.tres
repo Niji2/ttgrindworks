@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=41 format=3 uid="uid://uto15lucsboe"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_dhpna"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_836rq"]
-[ext_resource type="Script" path="res://objects/items/custom/item_pirate_hat.gd" id="3_eebrd"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_dhpna"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_836rq"]
+[ext_resource type="Script" uid="uid://dd6ck4wonlyk3" path="res://objects/items/custom/item_pirate_hat.gd" id="3_eebrd"]
 [ext_resource type="Texture2D" uid="uid://co8jy5u5uys2v" path="res://models/accessories/hats/pirate_hat/tt_m_chr_avt_acc_hat_pirateHat.glb-pix-1.png" id="3_tner0"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="4_3vuip"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="4_3vuip"]
 [ext_resource type="PackedScene" uid="uid://dxh0j2g8vs0jk" path="res://objects/items/custom/pirate_hat/pirate_hat.tscn" id="5_ufk50"]
 
 [sub_resource type="Resource" id="Resource_u3u5q"]

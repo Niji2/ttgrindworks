@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=9 format=3 uid="uid://db17gjpr8c2vl"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_xve1w"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="2_02a4f"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_xve1w"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="2_02a4f"]
 [ext_resource type="PackedScene" uid="uid://crfbgrthiyby7" path="res://models/accessories/backpacks/toys_backpack/tt_m_chr_avt_acc_pac_backpackWithToys.glb" id="2_08nae"]
-[ext_resource type="Script" path="res://objects/items/classes/body_placement.gd" id="2_rcgw6"]
+[ext_resource type="Script" uid="uid://b2jbep1luklmt" path="res://objects/items/classes/body_placement.gd" id="2_rcgw6"]
 [ext_resource type="Texture2D" uid="uid://cd0d7hrbckub6" path="res://models/accessories/backpacks/toys_backpack/tt_m_chr_avt_acc_pac_backpackWithToys.glb-pix-1.png" id="3_r372a"]
 
 [sub_resource type="Resource" id="Resource_kktks"]

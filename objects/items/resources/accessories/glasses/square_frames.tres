@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=40 format=3 uid="uid://0l3xwa6y8eyq"]
 
 [ext_resource type="PackedScene" uid="uid://bv5gpcr4y01bf" path="res://models/accessories/glasses/square_rims/square_frames.tscn" id="1_1q7q5"]
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_a866r"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="1_m1ird"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_iphfs"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_a866r"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="1_m1ird"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_iphfs"]
 [ext_resource type="Texture2D" uid="uid://cvuo1oc54d7d3" path="res://models/accessories/glasses/square_rims/square_frames-pix-1.png" id="3_spa74"]
 
 [sub_resource type="Resource" id="Resource_3klh1"]

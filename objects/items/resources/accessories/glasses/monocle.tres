@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=40 format=3 uid="uid://br0iywk53ga73"]
 
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="1_wh3jq"]
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_wllcp"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_e4na4"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="1_wh3jq"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_wllcp"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_e4na4"]
 [ext_resource type="PackedScene" uid="uid://bed5dy4dsnu33" path="res://models/accessories/glasses/monocle/monocole.glb" id="2_x6de0"]
 [ext_resource type="Texture2D" uid="uid://bafssmcvnh5cq" path="res://models/accessories/glasses/monocle/monocole.glb-pix-1.png" id="3_myi3x"]
 

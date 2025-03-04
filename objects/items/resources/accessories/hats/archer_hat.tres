@@ -1,11 +1,11 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=41 format=3 uid="uid://b211fi66w3yso"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_uarig"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_uarig"]
 [ext_resource type="PackedScene" uid="uid://dpypc4xh1nsqs" path="res://models/accessories/hats/archer_hat/tt_m_chr_avt_acc_hat_robinHoodHat.glb" id="2_lak8w"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_oxnt6"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="2_sp7t2"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_oxnt6"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="2_sp7t2"]
 [ext_resource type="Texture2D" uid="uid://u4s04814ji2k" path="res://models/accessories/hats/archer_hat/tt_m_chr_avt_acc_hat_robinHoodHat.glb-pix-1.png" id="3_j2k1x"]
-[ext_resource type="Script" path="res://objects/items/custom/item_archer_hat.gd" id="3_tjvet"]
+[ext_resource type="Script" uid="uid://1axvmk62q78w" path="res://objects/items/custom/item_archer_hat.gd" id="3_tjvet"]
 
 [sub_resource type="Resource" id="Resource_3c76d"]
 script = ExtResource("2_oxnt6")

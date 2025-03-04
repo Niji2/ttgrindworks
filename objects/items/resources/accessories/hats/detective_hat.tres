@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=40 format=3 uid="uid://fqemd4uv1ye2"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_3rgkv"]
-[ext_resource type="Script" path="res://objects/items/classes/head_placement.gd" id="2_5bq0r"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_3rgkv"]
+[ext_resource type="Script" uid="uid://csm4gjf3mgjrh" path="res://objects/items/classes/head_placement.gd" id="2_5bq0r"]
 [ext_resource type="Texture2D" uid="uid://bo4rvaqlmtdsa" path="res://models/accessories/hats/detective_hat/tt_m_chr_avt_acc_hat_detective_2-pix-1.png" id="3_0f4eh"]
 [ext_resource type="PackedScene" uid="uid://c1wsad172s54o" path="res://models/accessories/hats/detective_hat/tt_m_chr_avt_acc_hat_detective.glb" id="4_bi30q"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="5_yhuik"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="5_yhuik"]
 
 [sub_resource type="Resource" id="Resource_8pqho"]
 script = ExtResource("2_5bq0r")

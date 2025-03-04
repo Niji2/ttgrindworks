@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=9 format=3 uid="uid://ba7mgoe7i5oq4"]
 
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_gjp8m"]
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="1_ltiyy"]
-[ext_resource type="Script" path="res://objects/items/classes/body_placement.gd" id="2_tr8t1"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_gjp8m"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="1_ltiyy"]
+[ext_resource type="Script" uid="uid://b2jbep1luklmt" path="res://objects/items/classes/body_placement.gd" id="2_tr8t1"]
 [ext_resource type="PackedScene" uid="uid://6jkyqth37wnj" path="res://models/accessories/backpacks/gag_pack/gag_pack.glb" id="2_xgj81"]
 [ext_resource type="Texture2D" uid="uid://badpu7on0uiuo" path="res://models/accessories/backpacks/gag_pack/gag_pack.glb-pix-1.png" id="3_6exoy"]
 

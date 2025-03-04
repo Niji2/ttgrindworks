@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="ItemAccessory" load_steps=9 format=3 uid="uid://cmrx0t67871w2"]
 
-[ext_resource type="Script" path="res://objects/items/classes/item_accessory.gd" id="1_kbdgi"]
-[ext_resource type="Script" path="res://objects/items/classes/accessory_placement.gd" id="1_pof3x"]
-[ext_resource type="Script" path="res://objects/items/classes/body_placement.gd" id="2_5y17v"]
+[ext_resource type="Script" uid="uid://cpx8aci65xh8u" path="res://objects/items/classes/item_accessory.gd" id="1_kbdgi"]
+[ext_resource type="Script" uid="uid://c1etvilbghcsw" path="res://objects/items/classes/accessory_placement.gd" id="1_pof3x"]
+[ext_resource type="Script" uid="uid://b2jbep1luklmt" path="res://objects/items/classes/body_placement.gd" id="2_5y17v"]
 [ext_resource type="PackedScene" uid="uid://bw6o4v00od7c5" path="res://models/accessories/backpacks/shark_fin/tt_m_chr_avt_acc_pac_sharkFin.glb" id="3_3ovak"]
 [ext_resource type="Texture2D" uid="uid://i56qjyr3q5pv" path="res://models/accessories/backpacks/shark_fin/tt_m_chr_avt_acc_pac_sharkFin.glb-pix-1.png" id="3_gvol2"]
 
