@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://b6i8mgmrl6h6d"]
+
+[ext_resource type="Texture2D" uid="uid://cqc6d2o57vaj1" path="res://objects/items/custom/laff_tracks/wheezer/wheezer_soul_png.png" id="1_wqtve"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e7p8n"]
+transparency = 1
+cull_mode = 2
+albedo_texture = ExtResource("1_wqtve")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_bmcxy"]
+material = SubResource("StandardMaterial3D_e7p8n")
+
+[node name="ClaraMesh" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("PlaneMesh_bmcxy")

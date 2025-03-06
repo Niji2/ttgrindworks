@@ -1,8 +1,8 @@
 [gd_scene load_steps=20 format=3 uid="uid://cumojo4vtowmv"]
 
 [ext_resource type="Script" uid="uid://c05glh28nym3j" path="res://objects/toon/laff_meter.gd" id="1_k1sjt"]
-[ext_resource type="Texture2D" uid="uid://dy5ow0hhwlmlw" path="res://ui_assets/player_ui/laff_meter/dog.png" id="2_0oixq"]
 [ext_resource type="Texture2D" uid="uid://csw1srjt6dik3" path="res://ui_assets/player_ui/laff_meter/laff_eyes.png" id="2_3paw8"]
+[ext_resource type="Texture2D" uid="uid://d3ytcmjqwvkc7" path="res://ui_assets/player_ui/laff_meter/mouse.png" id="2_bp4uv"]
 [ext_resource type="Texture2D" uid="uid://p82unmxrapek" path="res://ui_assets/player_ui/laff_meter/LM_frown.png" id="3_gnyfo"]
 [ext_resource type="FontFile" uid="uid://815gwlftl5ik" path="res://fonts/impress-bt.ttf" id="5_eeki7"]
 [ext_resource type="Texture2D" uid="uid://b2alrmk2lu72p" path="res://ui_assets/player_ui/laff_meter/LM_smile.png" id="6_eplsu"]
@@ -112,7 +112,7 @@ grow_vertical = 2
 mouse_filter = 1
 
 [node name="Meter" type="TextureRect" parent="Anchor"]
-self_modulate = Color(0.345098, 0.819608, 0.952941, 1)
+self_modulate = Color(0.286275, 0.329412, 0.72549, 1)
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -125,7 +125,7 @@ offset_right = 48.0
 offset_bottom = 40.5
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_0oixq")
+texture = ExtResource("2_bp4uv")
 expand_mode = 1
 
 [node name="Dead" type="Control" parent="Anchor/Meter"]
@@ -184,7 +184,6 @@ texture = ExtResource("2_3paw8")
 expand_mode = 1
 
 [node name="Health" type="Label" parent="Anchor/Meter/Healthy/Eyes"]
-visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -204,7 +203,6 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="MaxHealth" type="Label" parent="Anchor/Meter/Healthy/Eyes"]
-visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -292,7 +290,6 @@ texture = ExtResource("13_e7lcx")
 
 [node name="Lock" type="TextureRect" parent="Anchor/Meter"]
 unique_name_in_owner = true
-visible = false
 layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
@@ -307,7 +304,6 @@ expand_mode = 1
 
 [node name="ReviveLabel" type="Label" parent="Anchor"]
 unique_name_in_owner = true
-visible = false
 layout_mode = 0
 offset_left = 42.3333
 offset_top = -4.33333

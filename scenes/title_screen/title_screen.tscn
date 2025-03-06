@@ -515,7 +515,6 @@ environment = SubResource("Environment_77gfr")
 [node name="CogBuilding" parent="World3D" instance=ExtResource("15_7ysqf")]
 unique_name_in_owner = true
 transform = Transform3D(15, 0, 0, 0, 15, 0, 0, 0, 15, 0, -0.005, 0)
-building_name = "An Ordinary Cog Building"
 
 [node name="SpringArm" type="SpringArm3D" parent="World3D"]
 transform = Transform3D(1, 0, 0, 0, 0.927184, 0.374607, 0, -0.374607, 0.927184, 0, 5, 8.025)

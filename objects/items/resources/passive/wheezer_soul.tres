@@ -1,7 +1,9 @@
-[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://wsbntm6wefif"]
+[gd_resource type="Resource" script_class="Item" load_steps=5 format=3 uid="uid://wsbntm6wefif"]
 
+[ext_resource type="Texture2D" uid="uid://cqc6d2o57vaj1" path="res://objects/items/custom/laff_tracks/wheezer/wheezer_soul_png.png" id="1_hhatx"]
 [ext_resource type="Script" uid="uid://c7tgiv2fyqhyy" path="res://objects/items/custom/item_wheezer_soul.gd" id="1_yf6ys"]
 [ext_resource type="Script" uid="uid://yhk2rod5wl3o" path="res://objects/items/classes/item.gd" id="2_yf6ys"]
+[ext_resource type="PackedScene" uid="uid://b6i8mgmrl6h6d" path="res://objects/items/custom/laff_tracks/wheezer/wheezer_mesh.tscn" id="3_lcl06"]
 
 [resource]
 script = ExtResource("2_yf6ys")
@@ -11,17 +13,19 @@ evergreen = false
 realtime = false
 slot = 0
 world_scale = 1.0
-want_ui_spin = true
+want_ui_spin = false
 ui_cam_offset = 0.0
 item_name = "Wheezer's Laff Meter"
 item_description = "Wheezer's Soul"
 big_description = "-A random Gag Track will have double crit chance, after calculating Luck"
+model = ExtResource("3_lcl06")
 stats_add = {}
 stats_multiply = {}
 player_values = {}
 arbitrary_data = {}
 item_script = ExtResource("1_yf6ys")
 remember_item = true
+icon = ExtResource("1_hhatx")
 shop_category_title = "Boost Item"
 shop_category_color = Color(0.196078, 0.580392, 0.917647, 1)
 force_show_shop_category = false
