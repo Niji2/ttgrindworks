@@ -184,6 +184,7 @@ texture = ExtResource("2_3paw8")
 expand_mode = 1
 
 [node name="Health" type="Label" parent="Anchor/Meter/Healthy/Eyes"]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -203,6 +204,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="MaxHealth" type="Label" parent="Anchor/Meter/Healthy/Eyes"]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -290,6 +292,7 @@ texture = ExtResource("13_e7lcx")
 
 [node name="Lock" type="TextureRect" parent="Anchor/Meter"]
 unique_name_in_owner = true
+visible = false
 layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
@@ -304,6 +307,7 @@ expand_mode = 1
 
 [node name="ReviveLabel" type="Label" parent="Anchor"]
 unique_name_in_owner = true
+visible = false
 layout_mode = 0
 offset_left = 42.3333
 offset_top = -4.33333

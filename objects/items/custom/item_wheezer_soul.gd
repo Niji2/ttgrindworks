@@ -26,7 +26,6 @@ func on_round_start(ui: BattleUI) -> void:
 	
 	# Pick tracks to use
 	crit_tracks = []
-	no_crit_tracks = []
 	var loadout := Util.get_player().character.gag_loadout.loadout.duplicate()
 
 	# Remove lure from the running (it has no crit)
@@ -42,14 +41,14 @@ func on_round_start(ui: BattleUI) -> void:
 		RandomService.array_shuffle_channel('wheezer_ability', loadout)
 		no_crit_tracks.append(loadout.pop_back())
 	
-	var colors := [Color.RED, Color.GREEN]
+	var colors := [Color.GREEN]
 	
 	# Change button colors
 	for i in crit_tracks.size():
 		var element := ui.get_track_element(crit_tracks[i])
 		
 		for button in element.gag_buttons:
-			button.default_color = colors[1]
+			button.default_color = colors[0]
 	
 	# Change button colors
 	for i in no_crit_tracks.size():
@@ -65,11 +64,13 @@ func on_turn_finalized(actions: Array[ToonAttack]) -> void:
 				if miss_action.action_name == action.action_name:
 					# NEVER CRIT
 					action.crit_chance_mod = 0.0
+					print("no crit")
 		for track in crit_tracks:
 			for hit_action in track.gags:
 				if hit_action.action_name == action.action_name:
 					# ALWAYS CRIT
 					action.crit_chance_mod = 2
+					print("crit!")
 
 func reset_track_colors(ui: BattleUI) -> void:
 	for track_element in ui.gag_tracks.get_children():

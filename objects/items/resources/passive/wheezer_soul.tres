@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://wsbntm6wefif"]
+
+[ext_resource type="Script" uid="uid://c7tgiv2fyqhyy" path="res://objects/items/custom/item_wheezer_soul.gd" id="1_yf6ys"]
+[ext_resource type="Script" uid="uid://yhk2rod5wl3o" path="res://objects/items/classes/item.gd" id="2_yf6ys"]
+
+[resource]
+script = ExtResource("2_yf6ys")
+qualitoon = 5
+qualitoon_rarity = 5
+evergreen = false
+realtime = false
+slot = 0
+world_scale = 1.0
+want_ui_spin = true
+ui_cam_offset = 0.0
+item_name = "Wheezer's Laff Meter"
+item_description = "Wheezer's Soul"
+big_description = "-A random Gag Track will have double crit chance, after calculating Luck"
+stats_add = {}
+stats_multiply = {}
+player_values = {}
+arbitrary_data = {}
+item_script = ExtResource("1_yf6ys")
+remember_item = true
+shop_category_title = "Boost Item"
+shop_category_color = Color(0.196078, 0.580392, 0.917647, 1)
+force_show_shop_category = false
+custom_shop_price = 50

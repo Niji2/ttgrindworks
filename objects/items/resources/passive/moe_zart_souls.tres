@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Item" load_steps=4 format=3 uid="uid://buqdujy1su8y3"]
 
-[ext_resource type="Script" uid="uid://dhkmxfus04r53" path="res://objects/items/custom/item_moe_zart_soul.gd" id="1_su1rl"]
+[ext_resource type="Script" path="res://objects/items/custom/item_moe_zart_soul.gd" id="1_su1rl"]
 [ext_resource type="PackedScene" uid="uid://dyqssjqhci16q" path="res://models/props/Modded/WIP_Block.tscn" id="2_7ceo5"]
 [ext_resource type="Script" uid="uid://yhk2rod5wl3o" path="res://objects/items/classes/item.gd" id="2_su1rl"]
 

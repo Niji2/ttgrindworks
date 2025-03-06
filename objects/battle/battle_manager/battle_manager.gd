@@ -390,7 +390,7 @@ func get_damage(damage: float, action: BattleAction, target: Node3D) -> int:
 	var boosted_damage := float(damage) * dmg_boost
 
 	if user is Player:
-		var user_stats: PlayerStats = user.stats
+		var user_stats: PlayerStats = battle_stats[user]
 		if action is GagLure:
 			boosted_damage *= user_stats.gag_effectiveness['Trap']
 		elif action is GagSound:

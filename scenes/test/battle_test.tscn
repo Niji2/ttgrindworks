@@ -23,7 +23,7 @@
 [ext_resource type="Script" uid="uid://xnvrqnvq3l74" path="res://objects/player/player_stats.gd" id="17_8fcps"]
 [ext_resource type="Script" uid="uid://covbvbaxxpcrl" path="res://objects/battle/battle_resources/gag_loadouts/gag_loadout.gd" id="17_aepo7"]
 [ext_resource type="PackedScene" uid="uid://dxyq5lb5oineo" path="res://objects/interactables/treasure_chest/treasure_chest.tscn" id="23_b65x5"]
-[ext_resource type="Resource" uid="uid://buqdujy1su8y3" path="res://objects/items/resources/passive/moe_zart_souls.tres" id="24_b65x5"]
+[ext_resource type="Resource" uid="uid://wsbntm6wefif" path="res://objects/items/resources/passive/wheezer_soul.tres" id="24_b65x5"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_5pfdn"]
 size = Vector3(14.6639, 5.65576, 10.2309)
@@ -221,5 +221,5 @@ state = 0
 stats = SubResource("Resource_vs51t")
 
 [node name="treasure_chest" parent="." instance=ExtResource("23_b65x5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.29258, 0, -9.68401)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.5073, 0, -9.68401)
 override_item = ExtResource("24_b65x5")
