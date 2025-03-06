@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="Item" load_steps=4 format=3 uid="uid://buqdujy1su8y3"]
+
+[ext_resource type="Script" uid="uid://dhkmxfus04r53" path="res://objects/items/custom/item_moe_zart_soul.gd" id="1_su1rl"]
+[ext_resource type="PackedScene" uid="uid://dyqssjqhci16q" path="res://models/props/Modded/WIP_Block.tscn" id="2_7ceo5"]
+[ext_resource type="Script" uid="uid://yhk2rod5wl3o" path="res://objects/items/classes/item.gd" id="2_su1rl"]
+
+[resource]
+script = ExtResource("2_su1rl")
+qualitoon = 5
+qualitoon_rarity = 5
+evergreen = false
+realtime = false
+slot = 0
+world_scale = 1.0
+want_ui_spin = true
+ui_cam_offset = 0.0
+item_name = "Moe's Laff Meter"
+item_description = "Moe's Soul"
+big_description = "- Grants Moe Zart's heal on cog destruction at 50% effectiveness"
+model = ExtResource("2_7ceo5")
+stats_add = {}
+stats_multiply = {}
+player_values = {}
+arbitrary_data = {}
+item_script = ExtResource("1_su1rl")
+remember_item = true
+shop_category_title = "Boost Item"
+shop_category_color = Color(0.196078, 0.580392, 0.917647, 1)
+force_show_shop_category = false
+custom_shop_price = 50

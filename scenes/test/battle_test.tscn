@@ -23,7 +23,7 @@
 [ext_resource type="Script" uid="uid://xnvrqnvq3l74" path="res://objects/player/player_stats.gd" id="17_8fcps"]
 [ext_resource type="Script" uid="uid://covbvbaxxpcrl" path="res://objects/battle/battle_resources/gag_loadouts/gag_loadout.gd" id="17_aepo7"]
 [ext_resource type="PackedScene" uid="uid://dxyq5lb5oineo" path="res://objects/interactables/treasure_chest/treasure_chest.tscn" id="23_b65x5"]
-[ext_resource type="Resource" uid="uid://r5ubyo8osu6k" path="res://objects/items/resources/passive/doodle.tres" id="24_b65x5"]
+[ext_resource type="Resource" uid="uid://buqdujy1su8y3" path="res://objects/items/resources/passive/moe_zart_souls.tres" id="24_b65x5"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_5pfdn"]
 size = Vector3(14.6639, 5.65576, 10.2309)
